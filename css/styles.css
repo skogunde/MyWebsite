@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #d3e0ea;
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  margin-top: 50px auto 0px auto;  /*This is top=50px, right=auto, bottom=0px, left=auto */
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #7fffd4;
+  border-width: 5px;
+  width: 100%;
+  /* We can also use below code to do the same as above.
+  border: dotted #7fffd4 6px;
+  border-bottom: none;
+  width: 100%;
+  margin: 100px, auto; */
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
+
+.middle-container {
+  width: 50%;  /* This will acquire the block into 50% of width*/
+  margin: 100px auto 100px auto; /* To set the content into to middle */
+  text-align: left; /* To left align and override the body center align */
+  line-height: 2;
+}
+
+.profile_picture {
+  height: 300px;
+  width: 300px;
+  float: right;
+  background-color: yellow;
+  border-radius: 50%
+}
+
+.computer_picture {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  border-radius: 10%;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.logical-thinking {
+  float: right;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.bottom-container {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  height: 300px;
+}
+
+.contact-message {
+  margin: 50px auto;
+}
+
+.btn {
+  background: #345ad9;
+  background-image: -webkit-linear-gradient(top, #345ad9, #2980b9);
+  background-image: -moz-linear-gradient(top, #345ad9, #2980b9);
+  background-image: -ms-linear-gradient(top, #345ad9, #2980b9);
+  background-image: -o-linear-gradient(top, #345ad9, #2980b9);
+  background-image: linear-gradient(to bottom, #345ad9, #2980b9);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cdcfc;
+  background-image: -webkit-linear-gradient(top, #3cdcfc, #3498db);
+  background-image: -moz-linear-gradient(top, #3cdcfc, #3498db);
+  background-image: -ms-linear-gradient(top, #3cdcfc, #3498db);
+  background-image: -o-linear-gradient(top, #3cdcfc, #3498db);
+  background-image: linear-gradient(to bottom, #3cdcfc, #3498db);
+  text-decoration: none;
+}
+
+.footer-container {
+  font-family: 'Montserrat', sans-serif;
+  background: #66BFBF;
+  padding: 50px 0px 40px;
+}
+
+.footer-reference {
+  text-decoration: none;
+  margin: 0px 20px;
+}
+
+.footer-reference:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 10px;
+  padding: 20px 0px;
+}
